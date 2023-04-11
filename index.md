@@ -26,6 +26,6 @@ to real-world software.
 *Christoph Baumann*,
 *Jan Tobias Müehlberg*,
 [arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf)  
-(accepted to IEEE DSN '23)
+(accepted at IEEE DSN'23)
 
 
