@@ -28,4 +28,8 @@ to real-world software.
 [arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf)  
 (accepted at IEEE DSN'23)
 
+**Source Code**
+
+Source code for the SDRaD implementation is available at [EricssonResearch /
+secure-rewind-and-discard](https://github.com/EricssonResearch/secure-rewind-and-discard/))
 
