@@ -28,17 +28,8 @@ to real-world software.
 [arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf)  
 (accepted at IEEE DSN'23)
 
-<head>
-    <title>Show/Hide BibTeX Entry</title>
-    <style>
-        #bibtex {
-            display: none;
-        }
-    </style>
-</head>
-<body>
-    <button id="toggleButton" onclick="toggleBibTeX()">Show BibTeX</button>
-    <pre id="bibtex">
+<button id="toggleButton" onclick="toggleBibTeX()">Show BibTeX</button>
+<pre id="bibtex">
 @misc{Gulmez23,
     author = {Gülmez, Merve and Nyman, Thomas and Bauman, Christoph and Mühlberg, Jan Tobias},
     title = {Rewind \& Discard: Improving Software Resilience Using Isolated Domains},
@@ -46,21 +37,24 @@ to real-world software.
     howpublished = {To appear in 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2023)}, 
     note = {A technical report is available at \url{https://arxiv.org/pdf/2205.03205.pdf}}
 }
-    </pre>
-</body>
+</pre>
 
 **Source Code**
 
 Source code for the SDRaD implementation is available at [EricssonResearch /
 secure-rewind-and-discard](https://github.com/EricssonResearch/secure-rewind-and-discard/))
 
-
+<style type="text/css">
+  #bibtex {
+    display: none;
+  }
+</style>
 <script>
     function toggleBibTeX() {
         var bibtexDiv = document.getElementById("bibtex");
         var toggleButton = document.getElementById("toggleButton");
 
-        if (bibtexDiv.style.display === "none") {
+        if (bibtexDiv.style.display !== "block") {
             bibtexDiv.style.display = "block";
             toggleButton.innerHTML = "Hide BibTeX";
         } else {
