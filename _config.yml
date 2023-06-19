@@ -18,7 +18,7 @@ title: Secure Rewind and Discard
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://secure-rewind-and-discard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+github_username:  secure-rewind-and-discard
 
 # Build settings
 markdown: kramdown
