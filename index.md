@@ -5,7 +5,7 @@
 layout: home
 ---
 
-## Rewind & Discard: Improving Software Resilience using Isolated Domains (2023)  
+<h2>Rewind & Discard: Improving Software Resilience using Isolated Domains (2023)</h2>  
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
@@ -40,7 +40,7 @@ Source code for the SDRaD implementation is available at [EricssonResearch /
 secure-rewind-and-discard](https://github.com/EricssonResearch/secure-rewind-and-discard/))
 
 
-## Exploring the Environmental Benefits of In-Process Isolation for Software Resilience (2023)  
+<h2>Exploring the Environmental Benefits of In-Process Isolation for Software Resilience(2023)</h2>
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
