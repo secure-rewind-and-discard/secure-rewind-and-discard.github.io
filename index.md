@@ -23,7 +23,7 @@ Secure Domain Rewind and Discard SDRaD and demonstrate how SDRaD can be applied 
 <button id="toggleButton" onclick="toggleBibTeX('entry1')">Show BibTeX</button>
 <div id="entry1" class="bibtex">
 <pre>
-@misc{Gulmez23,
+@misc{Gulmez23a,
     author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and Mühlberg, Jan Tobias},
     title = {Rewind \& Discard: Improving Software Resilience Using Isolated Domains},
     year = {2023},  
@@ -45,7 +45,7 @@ secure-rewind-and-discard](https://github.com/EricssonResearch/secure-rewind-and
 *Thomas Nyman*,
 *Christoph Baumann*,
 *Jan Tobias Müehlberg*,
-[arXiv:2306.02131 \[cs.CR\]](2306.02131)  
+[arXiv:2306.02131 \[cs.CR\]](https://arxiv.org/pdf/2306.02131.pdf)  
 (accepted at IEEE DSN'23)
 
 ***Abstract***
@@ -62,7 +62,7 @@ and security.
 <button id="toggleButton" onclick="toggleBibTeX('entry2')">Show BibTeX</button>
 <div id="entry2" class="bibtex">
 <pre>
-@misc{Gulmez23,
+@misc{Gulmez23b,
     author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and Mühlberg, Jan Tobias},
     title = {Exploring the Environmental Benefits of In-Process Isolation for Software Resilience},
     year = {2023},  
@@ -72,6 +72,50 @@ and security.
 }
 </div>
 
+
+<h2>Friend or Foe Inside? Exploring In-Process Isolation
+to Maintain Memory Safety for Unsafe Rust (2023) </h2>
+*Merve Gülmez*,
+*Thomas Nyman*,
+*Christoph Baumann*,
+*Jan Tobias Müehlberg*,
+[arXiv:2306.08127 \[cs.CR\]](https://arxiv.org/pdf/2306.08127.pdf)  
+
+***Abstract***
+
+> Rust is a popular memory-safe systems programming
+language. In order to interact with hardware or call into non-
+Rust libraries, Rust provides unsafe language features that shift
+responsibility for ensuring memory safety to the developer. Failing
+to do so, may lead to memory safety violations in unsafe code
+which can violate safety of the entire application. In this work
+we explore in-process isolation with Memory Protection Keys
+as a mechanism to shield safe program sections from safety
+violations that may happen in unsafe sections. Our approach is
+easy to use and comprehensive as it prevents heap and stack-
+based violations. We further compare process-based and in-process
+isolation mechanisms and the necessary requirements for data
+serialization, communication, and context switching. Our results
+show that in-process isolation can be effective and efficient, permits
+for a high degree of automation, and also enables a notion of
+application rewinding where the safe program section may detect
+and safely handle violations in unsafe code.
+
+<button id="toggleButton" onclick="toggleBibTeX('entry3')">Show BibTeX</button>
+<div id="entry3" class="bibtex">
+<pre>
+@misc{Gulmez22c,
+  author = {Gülmez, Merve and Nyman, Thomas and Bauman, Christoph and 
+            Mühlberg, Jan Tobias},
+  title = {Friend or Foe Inside? Exploring In-Process Isolation to 
+           Maintain Memory Safety for Unsafe Rust}, 
+  year = {2023}, 
+  doi = {10.48550/ARXIV.2306.08127},
+  howpublished = {{\tt arXiv:2306.08127 [cs.CR]}},
+  url = {https://arxiv.org/abs/2306.08127},
+}
+</pre>
+</div>
 
 
 <style type="text/css">
