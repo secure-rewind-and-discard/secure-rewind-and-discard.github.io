@@ -9,9 +9,11 @@ layout: home
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
-*Jan Tobias Müehlberg*,
-[arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf)  
-(accepted at IEEE DSN'23)
+*Jan Tobias Müehlberg*
+
+[DOI:10.1109/DSN58367.2023.00046](http://doi.org/10.1109/DSN58367.2023.00046) (accepted at IEEE DSN'23)
+
+[arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf)
 
 ***Abstract***
 > Well-known defenses exist to detect and mitigate common faults and memory safety vulnerabilities in software.  Yet, many of these mitigations do not address the
@@ -23,12 +25,32 @@ Secure Domain Rewind and Discard SDRaD and demonstrate how SDRaD can be applied 
 <button id="toggleButton" onclick="toggleBibTeX('entry1')">Show BibTeX</button>
 <div id="entry1" class="bibtex">
 <pre>
-@misc{Gulmez23a,
-    author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and Mühlberg, Jan Tobias},
-    title = {Rewind \& Discard: Improving Software Resilience Using Isolated Domains},
-    year = {2023},  
-    howpublished = {To appear in 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2023)}, 
-    note = {A technical report is available at \url{https://arxiv.org/pdf/2205.03205.pdf}}
+@inproceedings{Gulmez23a,
+  author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and 
+            Mühlberg, Jan Tobias},
+  title = {Rewind \& Discard: Improving Software Resilience Using Isolated Domains},
+  booktitle = {Proceedings of 53rd Annual IEEE/IFIP International Conference on  
+               Dependable Systems and Networks},
+  series = {DSN '23},
+  month = {jun},
+  year = {2023},
+  pages = {402--416},
+  issn = {2158-3927},
+  url = {http://doi.org/10.1109/DSN58367.2023.00046}
+  doi = {10.1109/DSN58367.2023.00046},
+  location = {Porto, Portugal},
+  publisher = {IEEE Computer Society},
+  address = {Washington, DC, USA},
+}
+
+@misc{Gulmez22,
+  author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and 
+            Mühlberg, Jan Tobias},
+  title = {Unlimited Lives: Secure In-Process Rollback with Isolated Domains},
+  year = {2022},  
+  doi = {10.48550/ARXIV.2205.03205},  
+  howpublished = {\tt arXiv:2205.03205 [cs.CR]}, 
+  url = {https://arxiv.org/abs/2205.03205},
 }
 </pre>
 </div>
@@ -44,9 +66,11 @@ secure-rewind-and-discard](https://github.com/EricssonResearch/secure-rewind-and
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
-*Jan Tobias Müehlberg*,
-[arXiv:2306.02131 \[cs.CR\]](https://arxiv.org/pdf/2306.02131.pdf)  
-(accepted at IEEE DSN'23)
+*Jan Tobias Müehlberg*
+
+[DOI:10.1109/DSN-S58398.2023.00056](http://doi.org/10.1109/DSN-S58398.2023.00056) (accepted at IEEE DSN'23)
+
+[arXiv:2306.02131 \[cs.CR\]](https://arxiv.org/pdf/2306.02131.pdf)
 
 ***Abstract***
 
@@ -62,12 +86,33 @@ and security.
 <button id="toggleButton" onclick="toggleBibTeX('entry2')">Show BibTeX</button>
 <div id="entry2" class="bibtex">
 <pre>
-@misc{Gulmez23b,
-    author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and Mühlberg, Jan Tobias},
-    title = {Exploring the Environmental Benefits of In-Process Isolation for Software Resilience},
-    year = {2023},  
-    howpublished = {To appear in 53rd Annual IEEE/IFIP International Conference on Dependable Systems and Networks (DSN 2023)}, 
-    note = {A technical report is available at \url{https://arxiv.org/pdf/2306.02131.pdf}}
+@inproceedings{Gulmez23b,
+  author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and 
+            Mühlberg, Jan Tobias},
+  title = {Exploring the Environmental Benefits of In-Process Isolation for 
+           Software Resilience},
+  booktitle = {Proceedings of 53rd Annual IEEE/IFIP International Conference on 
+               Dependable Systems and Networks - Supplemental Volume (DSN-S)},
+  series = {DSN '23},
+  month = {jun},
+  year = {2023},
+  pages = {203--205},
+  issn = {2833-292X/23},
+  url = {http://doi.org/10.1109/DSN-S58398.2023.00056}
+  doi = {10.1109/DSN-S58398.2023.00056},
+  location = {Porto, Portugal},
+  publisher = {IEEE Computer Society},
+  address = {Washington, DC, USA},
+}
+@misc{Gulmez23c,
+  author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and 
+            Mühlberg, Jan Tobias},
+  title = {Exploring the Environmental Benefits of In-Process Isolation for 
+           Software Resilience},     
+  year = {2023}, doi = {10.48550/ARXIV.2306.02131},
+  howpublished = {\tt arXiv:2306.02131 [cs.CR]},
+  url = {https://arxiv.org/abs/2306.02131},
+}
 </pre>
 }
 </div>
@@ -104,14 +149,14 @@ and safely handle violations in unsafe code.
 <button id="toggleButton" onclick="toggleBibTeX('entry3')">Show BibTeX</button>
 <div id="entry3" class="bibtex">
 <pre>
-@misc{Gulmez22c,
-  author = {Gülmez, Merve and Nyman, Thomas and Bauman, Christoph and 
+@misc{Gulmez23c,
+  author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and 
             Mühlberg, Jan Tobias},
   title = {Friend or Foe Inside? Exploring In-Process Isolation to 
            Maintain Memory Safety for Unsafe Rust}, 
   year = {2023}, 
   doi = {10.48550/ARXIV.2306.08127},
-  howpublished = {{\tt arXiv:2306.08127 [cs.CR]}},
+  howpublished = {\tt arXiv:2306.08127 [cs.CR]},
   url = {https://arxiv.org/abs/2306.08127},
 }
 </pre>
