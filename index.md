@@ -9,11 +9,11 @@ layout: home
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
-*Jan Tobias Müehlberg*
+*Jan Tobias Mühlberg*
 
 [DOI:10.1109/DSN58367.2023.00046](http://doi.org/10.1109/DSN58367.2023.00046) (accepted at IEEE DSN'23)
 
-[arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf)
+[arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf) [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_DSN_2023_Research_Track.pptx)
 
 ***Abstract***
 > Well-known defenses exist to detect and mitigate common faults and memory safety vulnerabilities in software.  Yet, many of these mitigations do not address the
@@ -66,11 +66,13 @@ secure-rewind-and-discard](https://github.com/EricssonResearch/secure-rewind-and
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
-*Jan Tobias Müehlberg*
+*Jan Tobias Mühlberg*
 
 [DOI:10.1109/DSN-S58398.2023.00056](http://doi.org/10.1109/DSN-S58398.2023.00056) (accepted at IEEE DSN'23)
 
-[arXiv:2306.02131 \[cs.CR\]](https://arxiv.org/pdf/2306.02131.pdf)
+[arXiv:2306.02131 \[cs.CR\]](https://arxiv.org/pdf/2306.02131.pdf)        [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_DSN_2023_Doctoral_Forum.pdf)
+
+
 
 ***Abstract***
 
@@ -124,6 +126,7 @@ to Maintain Memory Safety for Unsafe Rust (2023) </h2>
 *Thomas Nyman*,
 *Christoph Baumann*,
 *Jan Tobias Müehlberg*,
+
 [arXiv:2306.08127 \[cs.CR\]](https://arxiv.org/pdf/2306.08127.pdf)  
 
 ***Abstract***
