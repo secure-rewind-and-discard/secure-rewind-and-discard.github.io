@@ -36,7 +36,7 @@ Secure Domain Rewind and Discard SDRaD and demonstrate how SDRaD can be applied 
   year = {2023},
   pages = {402--416},
   issn = {2158-3927},
-  url = {http://doi.org/10.1109/DSN58367.2023.00046}
+  url = {http://doi.org/10.1109/DSN58367.2023.00046}, 
   doi = {10.1109/DSN58367.2023.00046},
   location = {Porto, Portugal},
   publisher = {IEEE Computer Society},
@@ -100,7 +100,7 @@ and security.
   year = {2023},
   pages = {203--205},
   issn = {2833-292X/23},
-  url = {http://doi.org/10.1109/DSN-S58398.2023.00056}
+  url = {http://doi.org/10.1109/DSN-S58398.2023.00056},
   doi = {10.1109/DSN-S58398.2023.00056},
   location = {Porto, Portugal},
   publisher = {IEEE Computer Society},
