@@ -4,7 +4,6 @@
 
 layout: home
 ---
-
 <h2>Rewind & Discard: Improving Software Resilience using Isolated Domains (2023)</h2>  
 *Merve Gülmez*,
 *Thomas Nyman*,
@@ -125,9 +124,13 @@ to Maintain Memory Safety for Unsafe Rust (2023) </h2>
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
-*Jan Tobias Müehlberg*,
+*Jan Tobias Mühlberg*,
+
 
 [arXiv:2306.08127 \[cs.CR\]](https://arxiv.org/pdf/2306.08127.pdf)  
+
+(accepted at IEEE SECDEV'23)
+
 
 ***Abstract***
 
