@@ -129,7 +129,7 @@ to Maintain Memory Safety for Unsafe Rust (2023) </h2>
 
 [arXiv:2306.08127 \[cs.CR\]](https://arxiv.org/pdf/2306.08127.pdf)  
 
-(accepted at IEEE SECDEV'23)
+(accepted at IEEE SECDEV'23)  [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_IEEESecDev_2023.pptx)
 
 
 ***Abstract***
