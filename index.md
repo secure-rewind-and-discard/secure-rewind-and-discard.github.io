@@ -12,7 +12,10 @@ layout: home
 
 [DOI:10.1109/DSN58367.2023.00046](http://doi.org/10.1109/DSN58367.2023.00046) (accepted at IEEE DSN'23)
 
-[arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf) [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_DSN_2023_Research_Track.pptx)
+Open Access : [<img src="./files/pdf.icon.png" width="30" height="30"/>](./files/2023_sdrad.pdf)
+
+
+Extended Version: [arXiv:1905.10242 \[cs.CR\]](https://arxiv.org/pdf/2205.03205.pdf) [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_DSN_2023_Research_Track.pptx)
 
 ***Abstract***
 > Well-known defenses exist to detect and mitigate common faults and memory safety vulnerabilities in software.  Yet, many of these mitigations do not address the
