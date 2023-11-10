@@ -158,6 +158,19 @@ and safely handle violations in unsafe code.
 <button id="toggleButton" onclick="toggleBibTeX('entry3')">Show BibTeX</button>
 <div id="entry3" class="bibtex">
 <pre>
+
+@INPROCEEDINGS{Gulmez23d,
+  author={Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and Mühlberg, Jan Tobias},
+  booktitle={2023 IEEE Secure Development Conference (SecDev)}, 
+  title={Friend or Foe Inside? Exploring In-Process Isolation to Maintain Memory Safety for Unsafe Rust}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={54-66},
+  doi={10.1109/SecDev56634.2023.00020}
+}
+
+
 @misc{Gulmez23c,
   author = {Gülmez, Merve and Nyman, Thomas and Baumann, Christoph and 
             Mühlberg, Jan Tobias},
