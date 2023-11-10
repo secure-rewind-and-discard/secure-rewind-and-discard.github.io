@@ -129,10 +129,11 @@ to Maintain Memory Safety for Unsafe Rust (2023) </h2>
 *Christoph Baumann*,
 *Jan Tobias Mühlberg*,
 
+[DOI:10.1109/SecDev56634.2023.00020](http://doi.org/10.1109/SecDev56634.2023.00020) (accepted at IEEE SecDev 23) 
 
-[arXiv:2306.08127 \[cs.CR\]](https://arxiv.org/pdf/2306.08127.pdf)  
+Open Access : [<img src="./files/pdf.icon.png" width="30" height="30"/>](./files/2023_sdrad-ffi.pdf)
 
-(accepted at IEEE SECDEV'23)  [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_IEEESecDev_2023.pptx)
+Extended Version: [arXiv:2306.08127 \[cs.CR\]](https://arxiv.org/pdf/2306.08127.pdf)  [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_IEEESecDev_2023.pptx)
 
 
 ***Abstract***
