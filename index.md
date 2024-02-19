@@ -4,7 +4,22 @@
 
 layout: home
 ---
-<h2>Rewind & Discard: Improving Software Resilience using Isolated Domains (2023)</h2>  
+<h2> Welcome to the <b>Secure Rewind and Discard Project </b> Website! You can find three published papers and their artifact code here.</h2>
+
+
+->  <a href="#rewind_discard">Rewind & Discard: Improving Software Resilience using Isolated Domains <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
+
+-> <a href="#environmental">Exploring the Environmental Benefits of In-Process Isolation for Software Resilience <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
+
+->  <a href="#sdradffi">Friend or Foe Inside? Exploring In-Process Isolation to Maintain Memory Safety for Unsafe Rust <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
+
+
+
+---------------------------------------------------------------------------------
+<h2><b> Publications </b></h2>  
+---------------------------------------------------------------------------------
+
+<h2 id="rewind_discard"> Rewind & Discard: Improving Software Resilience using Isolated Domains (2023)</h2>  
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
@@ -64,7 +79,7 @@ Source code for the SDRaD implementation is available at [EricssonResearch /
 secure-rewind-and-discard](https://github.com/secure-rewind-and-discard)
 
 
-<h2>Exploring the Environmental Benefits of In-Process Isolation for Software Resilience(2023)</h2>
+<h2 id="environmental">Exploring the Environmental Benefits of In-Process Isolation for Software Resilience(2023)</h2>
 *Merve Gülmez*,
 *Thomas Nyman*,
 *Christoph Baumann*,
@@ -122,7 +137,7 @@ and security.
 </div>
 
 
-<h2>Friend or Foe Inside? Exploring In-Process Isolation
+<h2 id="sdradffi"> Friend or Foe Inside? Exploring In-Process Isolation
 to Maintain Memory Safety for Unsafe Rust (2023) </h2>
 *Merve Gülmez*,
 *Thomas Nyman*,
@@ -131,7 +146,9 @@ to Maintain Memory Safety for Unsafe Rust (2023) </h2>
 
 [DOI:10.1109/SecDev56634.2023.00020](http://doi.org/10.1109/SecDev56634.2023.00020) (accepted at IEEE SecDev 23) 
 
-Open Access : [<img src="./files/pdf.icon.png" width="30" height="30"/>](./files/2023_sdrad-ffi.pdf)
+FOSDEM Talk : [<img src="./files/video_icon.png" width="30" height="30"/>](https://fosdem.org/2024/schedule/event/fosdem-2024-2632-friend-or-foe-inside-exploring-in-process-isolation-to-maintain-memory-safety-for-unsafe-rust/)
+
+Open Access : [<img src="./files/pdf.icon.png" width="30" height="30"/>](./files/2023_sdrad_ffi.pdf)
 
 Extended Version: [arXiv:2306.08127 \[cs.CR\]](https://arxiv.org/pdf/2306.08127.pdf)  [<img src="./files/slides.icon.png" width="30" height="30"/>](./files/Gulmez_IEEESecDev_2023.pptx)
 
