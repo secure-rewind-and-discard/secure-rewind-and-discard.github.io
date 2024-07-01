@@ -13,6 +13,7 @@ layout: home
 
 ->  <a href="#sdradffi">Friend or Foe Inside? Exploring In-Process Isolation to Maintain Memory Safety for Unsafe Rust <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
 
+->  <a href="#morello"> Secure Rewind and Discard on Arm Morello <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
 
 
 ---------------------------------------------------------------------------------
@@ -205,6 +206,40 @@ and safely handle violations in unsafe code.
 ***Source Code***
 
 Source code for the sdradrustffi implementation is available at [secure-rewind-and-discard](https://github.com/secure-rewind-and-discard)
+
+
+
+<h2 id="morello"> Secure Rewind and Discard on Arm Morello </h2>
+*Sacha Ruchlejmer*
+
+Open Access : [<img src="./files/pdf.icon.png" width="30" height="30"/>](./files/Master_Thesis___Secure_Rewind_on_Discard_on_ARM_Morello.pdf)
+
+
+
+***Abstract***
+
+> Memory-unsafe programming languages such as C and C++ are the preferred languages for systems programming, embedded systems, and performance-critical applications. The widespread use of these languages makes the risk of memory-related attacks very high. There are well-known detection mechanisms, but they do not address software resilience.
+An earlier approach proposes the Secure Domain Rewind and Discard (SDRaD) of isolated domains as a method to enhance the resilience of software targeted by runtime attacks on x86 architecture, based on hardware-enforced Memory Protection
+Key (MPK).
+In this work, SDRaD has been adapted to work with the Capability Hardware Enhanced RISC Instructions (CHERI) architecture to be more lightweight and performant.
+The results obtained in this thesis show that CHERI-SDRaD, the prototype adaption that leverages the memory-safety properties inherent to the CHERI architecture, results in a solution with less performance degradation (2.2% in Nginx benchmarks) compared to earlier results obtained with the original SDRaD prototype on an Intel-based architecture. The adaption to CHERI additionally allowed limitations inherent to the MPK-based approach to be resolved.
+
+<button id="toggleButton" onclick="toggleBibTeX('entry4')">Show BibTeX</button>
+<div id="entry4" class="bibtex">
+<pre>
+
+@masterthesis{Ruchlejmer24,
+  author={Sacha Ruchlejmer},
+  title={Secure Rewind and Discard on Arm Morello}, 
+  year=2024,
+  month= {July},
+  school={Phelma, School of engineering in Physics, Applied Physics, Electronics & Materials Science},
+  address={Grenoble, France}
+  type= {Master's thesis}
+}
+
+</pre>
+
 
 
 
