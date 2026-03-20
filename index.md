@@ -1,10 +1,10 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+keywords: "Intel MPK, Memory Protection Keys, CHERI, Arm Morello, compartmentalization, in-process isolation, software resilience, memory safety, SDRaD, Rust FFI, unsafe Rust, runtime attacks, rewind and discard"
 ---
-<h2> Welcome to the <b>Secure Rewind and Discard Project </b> Website! You can find three published papers and their artifact code here.</h2>
+<h2> Welcome to the <b>Secure Rewind and Discard Project </b> Website! You can find three published papers and 
+their artifact code here.</h2>
+
 
 
 ->  <a href="#rewind_discard">Rewind & Discard: Improving Software Resilience using Isolated Domains <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
@@ -15,6 +15,7 @@ layout: home
 
 ->  <a href="#morello"> Secure Rewind and Discard on Arm Morello <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
 
+->  <a href="#thesis"> Shining Light on Critical Gaps in Memory-Safety: From Programming Language to Hardware <img src="./files/click_finger_touch_icon.png" width="30" height="30" alt="Go to Rewind & Discard" /></a>
 
 ---------------------------------------------------------------------------------
 <h2><b> Publications </b></h2>  
@@ -134,7 +135,6 @@ and security.
   url = {https://arxiv.org/abs/2306.02131},
 }
 </pre>
-}
 </div>
 
 
@@ -234,13 +234,86 @@ The results obtained in this thesis show that CHERI-SDRaD, the prototype adaptio
   year=2024,
   month= {July},
   school={Phelma, School of engineering in Physics, Applied Physics, Electronics & Materials Science},
-  address={Grenoble, France}
+  address={Grenoble, France},
   type= {Master's thesis}
 }
 
 </pre>
+</div>
 
 
+<h2 id="thesis"> Shining Light on Critical Gaps in Memory-Safety: From Programming Language to Hardware</h2>
+*Merve Gulmez*
+
+Open Access : [<img src="./files/pdf.icon.png" width="30" height="30"/>](./files/gulmez_thesis_final.pdf)
+
+
+***Abstract***
+> Memory safety refers to a program’s property of ensuring that memory is accessed only
+in valid and intended ways. Memory-safety guarantees can be reinforced through
+programming languages with built-in safety features, such as garbage collection,
+compile- and run-time checks, or through hardware-based solutions like capability
+architectures. This thesis focuses on critical gaps in the current state of the art: the
+lack of fault tolerance of software-based mitigations for C and C++, limits of the
+memory-safety properties in Rust, and initialization-time safety in hardware capability
+architectures, such as CHERI.
+C and C++ are still the preferred languages for system programming, embedded
+systems, and various critical applications due to their performance. However, these
+languages lack built-in memory-safety properties. While several well-known defense
+techniques can mitigate common faults and memory safety vulnerabilities in software,
+many do not address the challenge of software resilience and availability—specifically,
+whether a system can continue to function and remain responsive under attack or when
+subjected to malicious inputs. As a solution, we propose secure rewind and discard
+of isolated domains as an efficient and secure method of improving the resilience
+of software that is targeted by run-time attacks. We show the practicability of our
+methodology by realizing a software library for Secure Domain Rewind and Discard
+(SDRaD) and demonstrate how SDRaD can be applied to real-world software.
+Rust has performance characteristics close to traditional system programming
+languages such as C and C++ but, unlike these languages, Rust has memory safety
+guarantees enforced by compile-time analysis. However, in order to interact with
+hardware or call into non-Rust libraries, Rust provides unsafe language features that
+shift responsibility for ensuring memory safety to the developer. Failing to do so
+may lead to memory-safety violations in Rust code, which can violate the safety of
+the entire application. To shield safe program sections from safety violations that
+may happen through unsafe language features, we adapt SDRaD to protect Rust code.
+To be practical, security features such as SDRaD must be easy for developers to
+adopt. We design a Rust-native application programming interface for SDRaD that
+leverages Rust’s powerful metaprogramming features to enable easy sandboxing of
+unsafe interfaces.
+Up to 10% of memory-safety vulnerabilities in languages like C and C++ stem from
+uninitialized variables. Capability-based addressing, such as CHERI, mitigates many
+memory defects, including spatial and temporal safety violations at an architectural
+level. CHERI, however, does not handle undefined behavior from uninitialized
+variables. We extend the CHERI capability model to include “conditional capabilities”,
+enabling memory-access policies based on prior operations. This allows enforcement
+of policies that satisfy memory-safety objectives such as “no reads to memory without
+at least one prior write”.
+Through these contributions, this thesis furthers the pursuit of comprehensive memory
+safety solutions by shining light on previously under-represented challenges: improving
+software resilience and availability and preventing uninitialized memory access.
+As complementary contributions, this thesis presents an efficient and comprehensive
+system call interposition mechanism, and provides compiler-assisted automated
+compartmentalization for Rust. In addition, it evaluates different memory-safety-
+defense techniques, such as stack canaries and shadow stacks, in terms of their
+effectiveness and performance. Orthogonal to these works, it proposes an extension
+to CHERI for enforcing data oblivious computation to harden software against timing
+side channels. Finally, it discusses environmental sustainability considerations related
+to SDRaD.
+<button id="toggleButton" onclick="toggleBibTeX('entry5')">Show BibTeX</button>
+<div id="entry5" class="bibtex">
+<pre>
+
+@phdthesis{gulmez2025phd,
+title = {Shining Light on Critical Gaps in Memory-Safety: From Programming Language to Hardware},
+author = {G{\"u}lmez, Merve and Joosen, Wouter and M{\"u}hlberg, Jan Tobias and Baumann, Christoph},
+school = {KU Leuven},
+address = {Leuven, Belgium},
+year = {2025},
+url = {https://lirias.kuleuven.be/4274569&lang=en}
+}
+
+</pre>
+</div>
 
 
 <style type="text/css">

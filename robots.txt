@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://secure-rewind-and-discard.github.io/sitemap.xml
